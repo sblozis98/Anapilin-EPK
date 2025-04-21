@@ -329,14 +329,14 @@ function App() {
           <div className="flex flex-col items-center mb-8">
             <h2 className="text-2xl font-bold mb-4 text-center">{lang === 'en' ? 'Listen' : 'Klausykite'}</h2>
             <audio controls className="w-full max-w-xl rounded shadow-lg bg-black">
-              <source src="/music/Anapilinpabaiga.wav" type="audio/wav" />
+              <source src="/Anapilin-EPK/music/Anapilinpabaiga.wav" type="audio/wav" />
               Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div className="flex justify-center mt-6 gap-4 max-w-3xl mx-auto">
+          <div className="flex flex-col sm:flex-row justify-center mt-6 gap-4 max-w-3xl mx-auto w-full px-2">
             <a
-              href="/Anapilin-EPK-en.pdf"
+              href="/Anapilin-EPK/Anapilin-EPK-en.pdf"
               download
               style={{ color: '#FF0000' }}
               className="bg-gray-900 border border-gray-700 px-4 py-2 rounded hover:text-[#ff5252] hover:bg-gray-800 hover:border-white transition"
@@ -344,7 +344,7 @@ function App() {
               {lang === 'en' ? 'Download EPK (EN)' : 'Atsisiųsti EPK (EN)'}
             </a>
             <a
-              href="/Anapilin-EPK-lt.pdf"
+              href="/Anapilin-EPK/Anapilin-EPK-lt.pdf"
               download
               style={{ color: '#FF0000' }}
               className="bg-gray-900 border border-gray-700 px-4 py-2 rounded hover:text-[#ff5252] hover:bg-gray-800 hover:border-white transition"
@@ -352,7 +352,7 @@ function App() {
               {lang === 'en' ? 'Download EPK (LT)' : 'Atsisiųsti EPK (LT)'}
             </a>
             <a
-              href="/assets/rider/rider.pdf"
+              href="/Anapilin-EPK/assets/rider/rider.pdf"
               download
               style={{ color: '#FF0000' }}
               className="bg-gray-900 border border-gray-700 px-4 py-2 rounded hover:text-[#ff5252] hover:bg-gray-800 hover:border-white transition"
