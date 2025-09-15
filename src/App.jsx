@@ -27,7 +27,7 @@ const content = {
       { name: 'YouTube', url: 'https://www.youtube.com/@anapilinofficial' },
       { name: 'Spotify', url: 'https://open.spotify.com/artist/6GzFvNkfrjnSQZMfNcLJZO' },
     ],
-    bio: `“Anapilin” is a black metal band exploring existential, spiritual, and mystical aspects of life and death. Their music features atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics. The band’s compositions invite listeners on a journey between light and darkness, life and eternity.`,
+    bio: `Anapilin is a black metal band exploring existential, spiritual, and mystical aspects of life and death. Their music features atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics. The band’s compositions invite listeners on a journey between light and darkness, life and eternity.`,
     videoMain: 'https://www.youtube.com/embed/TjxGT0yPGPM',
     videoLive: 'https://www.youtube.com/embed/Uqqmwaj7i64?start=317',
     performances: [
