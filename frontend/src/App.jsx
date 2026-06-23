@@ -290,17 +290,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------------- MARQUEE ---------------- */}
-      <div className="border-y border-[var(--line)] py-5 overflow-hidden bg-[var(--bg-soft)]">
-        <div className="marquee-track font-black-letter text-3xl md:text-5xl text-[var(--ink-faint)]">
-          {Array.from({ length: 2 }).map((_, b) => (
-            <span key={b} aria-hidden={b === 1}>
-              {'Anapilin · Anapilin · Anapilin · Anapilin · Anapilin · '.repeat(3)}
-            </span>
-          ))}
-        </div>
-      </div>
-
       <main className="max-w-6xl mx-auto px-5">
 
         {/* ---------------- BIO ---------------- */}
@@ -351,7 +340,6 @@ export default function App() {
         {/* ---------------- MUSIC ---------------- */}
         <section id="music" className="py-24 md:py-32 scroll-mt-20">
           <SectionHeading index="02">{t.musicTitle}</SectionHeading>
-          <Reveal><p className="text-lg text-[var(--ink-dim)] max-w-2xl mb-12">{t.musicLead}</p></Reveal>
           <div className="grid md:grid-cols-2 gap-6">
             <Reveal>
               <p className="font-display uppercase text-xs tracking-wide-sm text-[var(--ink-faint)] mb-3">{t.videoMainTitle}</p>
