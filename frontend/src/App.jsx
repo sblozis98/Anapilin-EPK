@@ -178,7 +178,7 @@ const carouselImages = [carousel1, carousel2, carousel3, carousel4, carousel5, c
 /*  Reusable bits                                                      */
 /* ------------------------------------------------------------------ */
 
-function Reveal({ children, className = '', as: Tag = 'div', style }) {
+function Reveal({ children, className = '', as: Tag = 'div', style, ...rest }) {
   const ref = useRef(null);
   useEffect(() => {
     const el = ref.current;
@@ -190,7 +190,7 @@ function Reveal({ children, className = '', as: Tag = 'div', style }) {
     obs.observe(el);
     return () => obs.disconnect();
   }, []);
-  return <Tag ref={ref} className={`reveal ${className}`} style={style}>{children}</Tag>;
+  return <Tag ref={ref} className={`reveal ${className}`} style={style} {...rest}>{children}</Tag>;
 }
 
 function SectionHeading({ index, children }) {
