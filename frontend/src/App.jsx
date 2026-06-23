@@ -367,7 +367,6 @@ export default function App() {
         {/* ---------------- LIVE ---------------- */}
         <section id="live" className="py-24 md:py-32 scroll-mt-20">
           <SectionHeading index="03">{t.liveTitle}</SectionHeading>
-          <Reveal><p className="text-lg text-[var(--ink-dim)] max-w-2xl mb-12">{t.liveLead}</p></Reveal>
           <ol className="relative border-l border-[var(--line)] ml-2">
             {t.performances.map((p, i) => (
               <Reveal as="li" key={i} className="pl-8 pb-10 last:pb-0 relative" style={{ transitionDelay: `${i * 60}ms` }}>
