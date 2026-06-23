@@ -48,7 +48,7 @@ const content = {
     videoMainTitle: 'Official Video',
     videoLiveTitle: 'Live',
     listenTitle: 'Featured Track — “Pabaiga”',
-    videoMain: 'https://www.youtube.com/embed/TjxGT0yPGPM',
+    videoMain: 'https://www.youtube.com/embed/hzY57sFluS8',
     videoLive: 'https://www.youtube.com/embed/Uqqmwaj7i64?start=317',
     liveTitle: 'Live',
     liveLead: 'Selected stages and shared bills.',
@@ -67,6 +67,7 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     membersTitle: 'Members',
     discographyTitle: 'Discography',
     discography: [
+      { name: 'Monotonija', type: 'Single', year: 2025 },
       { name: 'Anapilin', type: 'EP', year: 2024 },
       { name: 'Applause in an Empty Theater', type: 'Single', year: 2024 },
       { name: 'Breaking the Fourth Wall', type: 'Single', year: 2024 },
@@ -111,7 +112,7 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     videoMainTitle: 'Oficialus vaizdo klipas',
     videoLiveTitle: 'Gyvai',
     listenTitle: 'Kūrinys — „Pabaiga“',
-    videoMain: 'https://www.youtube.com/embed/TjxGT0yPGPM',
+    videoMain: 'https://www.youtube.com/embed/hzY57sFluS8',
     videoLive: 'https://www.youtube.com/embed/Uqqmwaj7i64?start=317',
     liveTitle: 'Koncertai',
     liveLead: 'Išskirtinės scenos ir bendri pasirodymai.',
@@ -130,6 +131,7 @@ Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė 
     membersTitle: 'Nariai',
     discographyTitle: 'Diskografija',
     discography: [
+      { name: 'Monotonija', type: 'Singlas', year: 2025 },
       { name: 'Anapilin', type: 'EP', year: 2024 },
       { name: 'Applause in an Empty Theater', type: 'Singlas', year: 2024 },
       { name: 'Breaking the Fourth Wall', type: 'Singlas', year: 2024 },
@@ -156,7 +158,7 @@ Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė 
 const members = [
   {
     name: 'Sandžėjus Sankaras', role: { en: 'Lead Guitars', lt: 'Pagrindinė gitara' }, years: '2016', photo: sandzejus,
-    bio: { en: 'Founding guitarist, shaping the band’s melodic and atmospheric sound with his creative vision.', lt: 'Vienas grupės įkūrėjų, kurio kūrybinė vizija formuoja melodingą ir atmosferinį skambesį.' },
+    bio: { en: 'One of the band’s founders, shaping its melodic and atmospheric sound with his creative vision.', lt: 'Vienas iš grupės įkūrėjų, kurio kūrybinė vizija formuoja melodingą ir atmosferinį skambesį.' },
   },
   {
     name: 'Simonas Bložis', role: { en: 'Vocals · Rhythm Guitar', lt: 'Vokalas · Ritminė gitara' }, years: '2016', photo: simonas,
