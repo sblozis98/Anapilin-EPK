@@ -7,7 +7,6 @@ import carousel4 from '../photos/carousel 4.jpg';
 import carousel5 from '../photos/carousel 5.jpg';
 import carousel6 from '../photos/carousel 6.jpg';
 import bandPhoto from '../photos/band photo (2).jpg';
-import aurimas from './assets/band members/Aurimas Krivinskas.jpg';
 import sandzejus from './assets/band members/Sandžėjus Sankaras.jpg';
 import simonas from './assets/band members/Simonas Bložis.jpg';
 import tauras from './assets/band members/Tauras Jasionis.jpg';
@@ -62,7 +61,7 @@ const content = {
     historyTitle: 'History',
     history: `Anapilin is a black metal band from Kaunas, Lithuania, formed in 2016 by Sandžejus and Simonas, who hailed from different cities. The lineup was solidified after meeting additional members at a local metal concert in Kaunas — which has since become their base of operations.<br/><br/>
 Initially the band experimented with various genres, but their focus remained on black metal. Their early work culminated in the debut EP, <em>Krachas</em>, in 2019. This was followed by their first full-length, <em>Dezintegracija</em>, on June 20, 2021 — recorded during the COVID-19 quarantine, with each member contributing their parts from home.<br/><br/>
-Following internal changes, including a new drummer and bassist, Anapilin solidified its lineup with Tauras on drums and Aurimas on bass. This stable formation led to several singles and a self-titled EP in late 2024. The band's sound is defined by its atmospheric coldness, engaging riffs, and deep, poetic lyrics on the existential, spiritual, and mystical sides of life and death.<br/><br/>
+Following internal changes, Tauras joined the band on drums. With the renewed lineup, Anapilin released several singles and a self-titled EP in late 2024. The band's sound is defined by its atmospheric coldness, engaging riffs, and deep, poetic lyrics on the existential, spiritual, and mystical sides of life and death.<br/><br/>
 Anapilin remains an active presence in the Lithuanian metal scene and is currently working on its next full-length, delving further into themes of human downfall, psychological collapse, and a crumbling environment.`,
     membersTitle: 'Members',
     discographyTitle: 'Discography',
@@ -127,7 +126,7 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     history: `„Anapilin“ – juodojo metalo grupė iš Kauno, susikūrusi 2016 metais. Grupės pradžią davė du nariai – Sandžejus ir Simonas, kilę iš skirtingų miestų. Kiek vėliau likę nariai buvo surasti vietiniame metalo koncerte Kaune, o nuo to laiko visa grupės veikla persikėlė į Kauną.<br/><br/>
 Pradžioje grupė eksperimentavo su įvairiais žanrais, tačiau pagrindinis dėmesys visada buvo skiriamas juodajam metalui. Ankstyvoji kūryba kulminavo pirmojo EP <em>„Krachas“</em> išleidimu 2019 metais. Tai buvo pirmasis žingsnis link sėkmės – grupė pradėjo aktyviai koncertuoti.<br/><br/>
 Pasikeitus bosistui, karantino metu buvo išleistas pirmasis pilno metro albumas <em>„Dezintegracija“</em>. Kadangi įrašai vyko per pandemiją, kiekvienas narys partijas įrašinėjo namuose, todėl leidybos procesas buvo sudėtingas.<br/><br/>
-Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė dabartinis narys Tauras, o bosine gitara pradėjo groti Aurimas. Nuo tada grupės sudėtis tapo stabili kaip niekada. Su naująja sudėtimi išleista keletas singlų bei EP „Anapilin“, o šiuo metu grupė intensyviai dirba prie naujo LP albumo.`,
+Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė dabartinis narys Tauras. Su atsinaujinusia sudėtimi išleista keletas singlų bei EP „Anapilin“, o šiuo metu grupė intensyviai dirba prie naujo LP albumo.`,
     membersTitle: 'Nariai',
     discographyTitle: 'Diskografija',
     discography: [
@@ -163,10 +162,6 @@ const members = [
   {
     name: 'Simonas Bložis', role: { en: 'Vocals · Rhythm Guitar', lt: 'Vokalas · Ritminė gitara' }, years: '2016', photo: simonas,
     bio: { en: 'Haunting vocals and solid rhythm guitar, contributing poetic lyrics and emotional depth.', lt: 'Užburiantys vokalai ir tvirta ritmo gitara; poetiški tekstai ir emocinis gylis.' },
-  },
-  {
-    name: 'Aurimas Krivinskas', role: { en: 'Bass', lt: 'Bosinė gitara' }, years: '2023', photo: aurimas,
-    bio: { en: 'Joined in 2023, providing a powerful low-end and a dynamic stage presence.', lt: 'Prisijungė 2023 m. – galingas bosas ir dinamiškas sceninis įvaizdis.' },
   },
   {
     name: 'Tauras Jasionis', role: { en: 'Drums', lt: 'Būgnai' }, years: '2023', photo: tauras,
@@ -386,7 +381,7 @@ export default function App() {
         {/* ---------------- MEMBERS ---------------- */}
         <section id="members" className="py-24 md:py-32 scroll-mt-20">
           <SectionHeading index="04">{t.membersTitle}</SectionHeading>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-3 gap-4">
             {members.map((m, i) => (
               <Reveal key={m.name} as="button" className="group text-left" style={{ transitionDelay: `${i * 80}ms` }}>
                 <div onClick={() => setActiveMember(i === activeMember ? -1 : i)} className="cursor-pointer">
