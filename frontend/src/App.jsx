@@ -35,7 +35,7 @@ const content = {
     formed: '2016',
     contact: 'anapilinofficial@gmail.com',
     bioTitle: 'The Band',
-    bio: `Anapilin is a black metal band exploring the existential, spiritual, and mystical aspects of life and death. Their music is built on atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics — inviting the listener on a journey between light and darkness, life and eternity.`,
+    bio: `Anapilin is a black metal band exploring the existential, spiritual, and mystical aspects of life and death. Their music is built on atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics — inviting the listener on a journey between light and darkness, life and eternity. Over the years the band has grown a cold, melancholic sound of its own that edges into depressive post-metal, and has shared stages with the likes of Batushka, Samael, and God Dethroned.`,
     factsTitle: 'Facts',
     facts: [
       { k: 'Genre', v: 'Black Metal' },
@@ -62,10 +62,10 @@ const content = {
       { year: '2020', title: 'Misþyrming', desc: 'Performed with Icelandic band Misþyrming at Narauti club, Vilnius — March 10, 2020.' },
     ],
     historyTitle: 'History',
-    history: `Anapilin is a black metal band from Kaunas, Lithuania, formed in 2016 by Sandžejus and Simonas, who hailed from different cities. The lineup was solidified after meeting additional members at a local metal concert in Kaunas — which has since become their base of operations.<br/><br/>
+    history: `Anapilin is a black metal band from Kaunas, Lithuania, formed in 2016 by Sandžėjus and Simonas, who hailed from different cities. The lineup was solidified after meeting additional members at a local metal concert in Kaunas — which has since become their base of operations.<br/><br/>
 Initially the band experimented with various genres, but their focus remained on black metal. Their early work culminated in the debut EP, <em>Krachas</em>, in 2019. This was followed by their first full-length, <em>Dezintegracija</em>, on June 20, 2021 — recorded during the COVID-19 quarantine, with each member contributing their parts from home.<br/><br/>
-Following internal changes, Tauras joined the band on drums. With the renewed lineup, Anapilin released several singles and a self-titled EP in late 2024. In 2026, Gabrielius Mockus joined on bass. The band's sound is defined by its atmospheric coldness, engaging riffs, and deep, poetic lyrics on the existential, spiritual, and mystical sides of life and death.<br/><br/>
-Anapilin remains an active presence in the Lithuanian metal scene and is currently working on its next full-length, delving further into themes of human downfall, psychological collapse, and a crumbling environment.`,
+Following internal changes, Tauras joined on drums. The renewed lineup released a string of singles, the self-titled EP <em>Anapilin</em> (2024), and the single <em>Monotonija</em> (2025). Along the way the sound grew darker and more introspective, drifting towards depressive, post-metal-tinged black metal. In 2026, Gabrielius Mockus took over the bass.<br/><br/>
+Anapilin plays regularly in Lithuania and abroad — from festivals in Latvia and Estonia to opening for Batushka in Vilnius and a show with Abduction in Warsaw. The band is now working on its second full-length album, delving further into themes of human downfall, psychological collapse, and a crumbling environment.`,
     membersTitle: 'Members',
     discographyTitle: 'Discography',
     discography: [
@@ -82,6 +82,16 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     ],
     pressTitle: 'Press Kit',
     pressLead: 'Everything a promoter, label, or journalist needs.',
+    mediaTitle: 'Interviews',
+    media: [
+      {
+        kind: 'Podcast', outlet: 'LRT OPUS · Sunkūs laikai', date: 'Nov 11, 2026', duration: '1 h 36 min',
+        title: 'Įtraukiančiai šaltas „Anapilin“ derinys: atmosfera, melancholija ir mistika',
+        desc: 'Simonas and Sandžėjus join host Aivaras Dočkus on Lithuanian national radio to talk about the band’s sound, the road so far, and the second album.',
+        url: 'https://www.lrt.lt/radioteka/irasas/2000922092/itraukianciai-saltas-anapilin-derinys-atmosfera-melancholija-ir-mistika',
+      },
+    ],
+    listen: 'Listen',
     downloads: [
       { label: 'EPK — English', href: '/Anapilin-EPK-en.pdf' },
       { label: 'EPK — Lietuvių', href: '/Anapilin-EPK-lt.pdf' },
@@ -101,7 +111,7 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     formed: '2016',
     contact: 'anapilinofficial@gmail.com',
     bioTitle: 'Grupė',
-    bio: `„Anapilin“ – juodojo metalo grupė, tyrinėjanti egzistencinius, dvasinius ir mistinius gyvenimo bei mirties aspektus. Kūryba remiasi atmosferišku, šaltu skambesiu, įtraukiančiais gitarų rifais ir giliais, poetiškais tekstais – kviečia klausytoją į kelionę tarp šviesos ir tamsos, gyvenimo ir amžinybės.`,
+    bio: `„Anapilin“ – juodojo metalo grupė, tyrinėjanti egzistencinius, dvasinius ir mistinius gyvenimo bei mirties aspektus. Kūryba remiasi atmosferišku, šaltu skambesiu, įtraukiančiais gitarų rifais ir giliais, poetiškais tekstais – kviečia klausytoją į kelionę tarp šviesos ir tamsos, gyvenimo ir amžinybės. Per kelerius metus grupė išsigrynino savitą – šaltą, melancholišką, į depresyvų post-metalą linkstantį – skambesį ir dalijosi scena su Batushka, Samael bei God Dethroned.`,
     factsTitle: 'Faktai',
     facts: [
       { k: 'Žanras', v: 'Juodasis metalas' },
@@ -128,10 +138,11 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
       { year: '2020', title: 'Misþyrming', desc: 'Pasirodymas su islandų grupe Misþyrming Vilniaus klube „Narauti“ – 2020 m. kovo 10 d.' },
     ],
     historyTitle: 'Istorija',
-    history: `„Anapilin“ – juodojo metalo grupė iš Kauno, susikūrusi 2016 metais. Grupės pradžią davė du nariai – Sandžejus ir Simonas, kilę iš skirtingų miestų. Kiek vėliau likę nariai buvo surasti vietiniame metalo koncerte Kaune, o nuo to laiko visa grupės veikla persikėlė į Kauną.<br/><br/>
-Pradžioje grupė eksperimentavo su įvairiais žanrais, tačiau pagrindinis dėmesys visada buvo skiriamas juodajam metalui. Ankstyvoji kūryba kulminavo pirmojo EP <em>„Krachas“</em> išleidimu 2019 metais. Tai buvo pirmasis žingsnis link sėkmės – grupė pradėjo aktyviai koncertuoti.<br/><br/>
-Pasikeitus bosistui, karantino metu buvo išleistas pirmasis pilno metro albumas <em>„Dezintegracija“</em>. Kadangi įrašai vyko per pandemiją, kiekvienas narys partijas įrašinėjo namuose, todėl leidybos procesas buvo sudėtingas.<br/><br/>
-Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė dabartinis narys Tauras. Su atsinaujinusia sudėtimi išleista keletas singlų bei EP „Anapilin“. 2026 m. bosine gitara groti pradėjo Gabrielius Mockus, o šiuo metu grupė intensyviai dirba prie naujo LP albumo.`,
+    history: `„Anapilin“ – juodojo metalo grupė iš Kauno, susikūrusi 2016 metais. Grupės pradžią davė du nariai – Sandžėjus ir Simonas, kilę iš skirtingų miestų. Kiek vėliau likę nariai buvo surasti vietiniame metalo koncerte Kaune, o nuo to laiko visa grupės veikla persikėlė į Kauną.<br/><br/>
+Pradžioje grupė eksperimentavo su įvairiais žanrais, tačiau pagrindinis dėmesys visada buvo skiriamas juodajam metalui. Ankstyvoji kūryba kulminavo pirmojo EP <em>„Krachas“</em> išleidimu 2019 metais. Tai buvo pirmasis rimtas žingsnis – grupė pradėjo aktyviai koncertuoti.<br/><br/>
+Pasikeitus bosistui, karantino metu buvo išleistas pirmasis ilgagrojis albumas <em>„Dezintegracija“</em>. Kadangi įrašai vyko per pandemiją, kiekvienas narys partijas įrašinėjo namuose, todėl leidybos procesas buvo sudėtingas.<br/><br/>
+Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė dabartinis narys Tauras. Su atsinaujinusia sudėtimi išleista keletas singlų, EP <em>„Anapilin“</em> (2024) ir singlas <em>„Monotonija“</em> (2025). Laikui bėgant skambesys tapo tamsesnis ir labiau į vidų nukreiptas, vis labiau linkstantis į depresyvų post-metalą. 2026 m. bosine gitara groti pradėjo Gabrielius Mockus.<br/><br/>
+„Anapilin“ reguliariai koncertuoja Lietuvoje ir užsienyje – nuo festivalių Latvijoje ir Estijoje iki Batushka apšildymo Vilniuje ir koncerto su Abduction Varšuvoje. Šiuo metu grupė kuria antrąjį ilgagrojį albumą, kuriame dar giliau neria į žmogaus nuopuolio, psichologinės griūties ir byrančios aplinkos temas.`,
     membersTitle: 'Nariai',
     discographyTitle: 'Diskografija',
     discography: [
@@ -148,6 +159,16 @@ Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė 
     ],
     pressTitle: 'Spaudos rinkinys',
     pressLead: 'Viskas, ko reikia organizatoriui, leidyklai ar žurnalistui.',
+    mediaTitle: 'Interviu',
+    media: [
+      {
+        kind: 'Tinklalaidė', outlet: 'LRT OPUS · Sunkūs laikai', date: '2026-11-11', duration: '1 val. 36 min.',
+        title: 'Įtraukiančiai šaltas „Anapilin“ derinys: atmosfera, melancholija ir mistika',
+        desc: 'Simonas ir Sandžėjus su vedėju Aivaru Dočkumi kalbasi apie grupės skambesį, nueitą kelią ir antrąjį albumą.',
+        url: 'https://www.lrt.lt/radioteka/irasas/2000922092/itraukianciai-saltas-anapilin-derinys-atmosfera-melancholija-ir-mistika',
+      },
+    ],
+    listen: 'Klausytis',
     downloads: [
       { label: 'EPK — English', href: '/Anapilin-EPK-en.pdf' },
       { label: 'EPK — Lietuvių', href: '/Anapilin-EPK-lt.pdf' },
@@ -440,6 +461,30 @@ export default function App() {
         <section id="press" className="py-24 md:py-32 scroll-mt-20">
           <SectionHeading index="07">{t.pressTitle}</SectionHeading>
           <Reveal><p className="text-lg text-[var(--ink-dim)] max-w-2xl mb-12">{t.pressLead}</p></Reveal>
+
+          <h3 className="font-display uppercase text-xs tracking-mega text-[var(--ink-faint)] mb-5">{t.mediaTitle}</h3>
+          <div className="space-y-4 mb-14">
+            {t.media.map((m) => (
+              <Reveal as="a" key={m.url} href={m.url} target="_blank" rel="noopener noreferrer"
+                className="group grid md:grid-cols-12 gap-6 items-center border border-[var(--line)] p-7 md:p-9 hover:border-[var(--blood)] hover:bg-[var(--bg-soft)] transition-all">
+                <div className="md:col-span-9">
+                  <p className="font-display uppercase text-xs tracking-wide-sm">
+                    <span className="text-[var(--blood-bright)]">{m.kind}</span>
+                    <span className="text-[var(--ink-faint)]"> · {m.outlet} · {m.date}</span>
+                  </p>
+                  <h4 className="text-2xl md:text-3xl italic leading-snug mt-3 text-[var(--ink)]">{m.title}</h4>
+                  <p className="text-[var(--ink-dim)] mt-3 leading-relaxed">{m.desc}</p>
+                </div>
+                <div className="md:col-span-3 md:text-right">
+                  <span className="inline-flex items-center gap-3 font-display uppercase text-xs tracking-wide-sm px-5 py-3 border border-[var(--ink-faint)] group-hover:bg-[var(--blood)] group-hover:border-[var(--blood)] transition-colors">
+                    ▶ {t.listen}
+                  </span>
+                  <p className="font-display text-[10px] tracking-wide-sm text-[var(--ink-faint)] mt-3">{m.duration}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
           <div className="grid sm:grid-cols-3 gap-4">
             {t.downloads.map((d, i) => (
               <Reveal as="a" key={d.label} href={d.href} download style={{ transitionDelay: `${i * 80}ms` }}

@@ -25,7 +25,14 @@ band_info = {
     'origin': 'Kaunas, Lithuania',
     'formed': '2016',
     'contact': 'anapilinofficial@gmail.com',
-    'bio': 'Anapilin is a black metal band exploring the existential, spiritual, and mystical aspects of life and death. Their music is built on atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics — inviting the listener on a journey between light and darkness, life and eternity.',
+    'bio': 'Anapilin is a black metal band exploring the existential, spiritual, and mystical aspects of life and death. Their music is built on atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics — inviting the listener on a journey between light and darkness, life and eternity. Over the years the band has grown a cold, melancholic sound of its own that edges into depressive post-metal, and has shared stages with the likes of Batushka, Samael, and God Dethroned.',
+    'media': [
+        {
+            'label': 'Podcast · LRT OPUS “Sunkūs laikai” (Nov 11, 2026)',
+            'title': 'Įtraukiančiai šaltas „Anapilin“ derinys: atmosfera, melancholija ir mistika',
+            'url': 'https://www.lrt.lt/radioteka/irasas/2000922092/itraukianciai-saltas-anapilin-derinys-atmosfera-melancholija-ir-mistika',
+        },
+    ],
     'socials': socials,
     'performances': [
         "Abduction – On October 22, 2026, Anapilin played with Abduction at Voodoo Club, Warsaw, Poland.",
@@ -50,7 +57,7 @@ band_info = {
     ],
     'labels': {
         'formed': 'Formed', 'contact': 'Contact', 'members': 'Band Members',
-        'performances': 'Notable Performances', 'discography': 'Discography',
+        'performances': 'Notable Performances', 'discography': 'Discography', 'media': 'Interviews',
         'main_video': 'Official Video', 'live_video': 'Live Video',
     },
 }
@@ -61,7 +68,14 @@ band_info_lt = {
     'origin': 'Kaunas, Lietuva',
     'formed': '2016',
     'contact': 'anapilinofficial@gmail.com',
-    'bio': '„Anapilin“ – juodojo metalo grupė, tyrinėjanti egzistencinius, dvasinius ir mistinius gyvenimo bei mirties aspektus. Kūryba remiasi atmosferišku, šaltu skambesiu, įtraukiančiais gitarų rifais ir giliais, poetiškais tekstais – kviečia klausytoją į kelionę tarp šviesos ir tamsos, gyvenimo ir amžinybės.',
+    'bio': '„Anapilin“ – juodojo metalo grupė, tyrinėjanti egzistencinius, dvasinius ir mistinius gyvenimo bei mirties aspektus. Kūryba remiasi atmosferišku, šaltu skambesiu, įtraukiančiais gitarų rifais ir giliais, poetiškais tekstais – kviečia klausytoją į kelionę tarp šviesos ir tamsos, gyvenimo ir amžinybės. Per kelerius metus grupė išsigrynino savitą – šaltą, melancholišką, į depresyvų post-metalą linkstantį – skambesį ir dalijosi scena su Batushka, Samael bei God Dethroned.',
+    'media': [
+        {
+            'label': 'Tinklalaidė · LRT OPUS „Sunkūs laikai“ (2026-11-11)',
+            'title': 'Įtraukiančiai šaltas „Anapilin“ derinys: atmosfera, melancholija ir mistika',
+            'url': 'https://www.lrt.lt/radioteka/irasas/2000922092/itraukianciai-saltas-anapilin-derinys-atmosfera-melancholija-ir-mistika',
+        },
+    ],
     'socials': socials,
     'performances': [
         "Abduction – 2026 m. spalio 22 d. grojome su Abduction Varšuvos „Voodoo“ klube, Lenkijoje.",
@@ -86,7 +100,7 @@ band_info_lt = {
     ],
     'labels': {
         'formed': 'Įkurta', 'contact': 'Kontaktai', 'members': 'Grupės nariai',
-        'performances': 'Išskirtiniai pasirodymai', 'discography': 'Diskografija',
+        'performances': 'Išskirtiniai pasirodymai', 'discography': 'Diskografija', 'media': 'Interviu',
         'main_video': 'Oficialus vaizdo klipas', 'live_video': 'Gyvai',
     },
 }
@@ -174,6 +188,15 @@ template_html = '''
         </div>
         <div class="section">
             <p style="font-style: italic; font-size: 1.08em; margin-bottom: 0;">{{ band_info.bio }}</p>
+        </div>
+        <div class="section">
+            <h2 style="margin-bottom: 12px;">{{ band_info.labels.media }}</h2>
+            {% for m in band_info.media %}
+            <div style="margin-bottom: 8px;">
+                <div style="color: #555; font-size: 0.95em;">{{ m.label }}</div>
+                <a href="{{ m.url }}" style="color: #c4302b; font-weight: bold; text-decoration: none;">{{ m.title }}</a>
+            </div>
+            {% endfor %}
         </div>
         <div class="section">
             <h2 style="margin-bottom: 12px;">{{ band_info.labels.members }}</h2>
