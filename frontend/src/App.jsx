@@ -10,6 +10,7 @@ import bandPhoto from '../photos/band photo (2).jpg';
 import sandzejus from './assets/band members/Sandžėjus Sankaras.jpg';
 import simonas from './assets/band members/Simonas Bložis.jpg';
 import tauras from './assets/band members/Tauras Jasionis.jpg';
+import gabrielius from './assets/band members/Gabrielius Mockus.jpg';
 
 /* ------------------------------------------------------------------ */
 /*  Bilingual content                                                  */
@@ -52,6 +53,8 @@ const content = {
     liveTitle: 'Live',
     liveLead: 'Selected stages and shared bills.',
     performances: [
+      { year: '2026', title: 'Abduction', desc: 'Played with Abduction at Voodoo Club, Warsaw, Poland — October 22, 2026.' },
+      { year: '2026', title: 'Batushka', desc: 'Opened for Batushka at Loftas, Vilnius — October 1, 2026.' },
       { year: '2025', title: "Velniava'2025", desc: 'Shared the stage with God Dethroned, Night Slasher, and Black Spikes at Pramogų salė Vakaris, Vilnius — March 29, 2025.' },
       { year: '2025', title: 'Howls of Winter XII', desc: 'Underground black metal festival at Rockclub Tapper, Tallinn, Estonia — with Abduction, izrod, Lunar Mantra, and Sargeist.' },
       { year: '2024', title: 'Zobens un Lēmes', desc: 'Prestigious metal festival in Bauska, Latvia — alongside Samael, Thyrfing, and Metsatöll.' },
@@ -61,7 +64,7 @@ const content = {
     historyTitle: 'History',
     history: `Anapilin is a black metal band from Kaunas, Lithuania, formed in 2016 by Sandžejus and Simonas, who hailed from different cities. The lineup was solidified after meeting additional members at a local metal concert in Kaunas — which has since become their base of operations.<br/><br/>
 Initially the band experimented with various genres, but their focus remained on black metal. Their early work culminated in the debut EP, <em>Krachas</em>, in 2019. This was followed by their first full-length, <em>Dezintegracija</em>, on June 20, 2021 — recorded during the COVID-19 quarantine, with each member contributing their parts from home.<br/><br/>
-Following internal changes, Tauras joined the band on drums. With the renewed lineup, Anapilin released several singles and a self-titled EP in late 2024. The band's sound is defined by its atmospheric coldness, engaging riffs, and deep, poetic lyrics on the existential, spiritual, and mystical sides of life and death.<br/><br/>
+Following internal changes, Tauras joined the band on drums. With the renewed lineup, Anapilin released several singles and a self-titled EP in late 2024. In 2026, Gabrielius Mockus joined on bass. The band's sound is defined by its atmospheric coldness, engaging riffs, and deep, poetic lyrics on the existential, spiritual, and mystical sides of life and death.<br/><br/>
 Anapilin remains an active presence in the Lithuanian metal scene and is currently working on its next full-length, delving further into themes of human downfall, psychological collapse, and a crumbling environment.`,
     membersTitle: 'Members',
     discographyTitle: 'Discography',
@@ -116,6 +119,8 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     liveTitle: 'Koncertai',
     liveLead: 'Išskirtinės scenos ir bendri pasirodymai.',
     performances: [
+      { year: '2026', title: 'Abduction', desc: 'Grojome su Abduction Varšuvos „Voodoo“ klube, Lenkijoje – 2026 m. spalio 22 d.' },
+      { year: '2026', title: 'Batushka', desc: 'Apšildėme Batushka koncertą Vilniaus „Lofte“ – 2026 m. spalio 1 d.' },
       { year: '2025', title: "Velniava'2025", desc: 'Pasirodymas Vilniuje kartu su God Dethroned, Night Slasher ir Black Spikes – Pramogų salė „Vakaris“.' },
       { year: '2025', title: 'Howls of Winter XII', desc: 'Underground juodojo metalo festivalis Taline, Estijoje – su Abduction, izrod, Lunar Mantra ir Sargeist.' },
       { year: '2024', title: 'Zobens un Lēmes', desc: 'Prestižinis metalo festivalis Bauskėje, Latvijoje – kartu su Samael, Thyrfing ir Metsatöll.' },
@@ -126,7 +131,7 @@ Anapilin remains an active presence in the Lithuanian metal scene and is current
     history: `„Anapilin“ – juodojo metalo grupė iš Kauno, susikūrusi 2016 metais. Grupės pradžią davė du nariai – Sandžejus ir Simonas, kilę iš skirtingų miestų. Kiek vėliau likę nariai buvo surasti vietiniame metalo koncerte Kaune, o nuo to laiko visa grupės veikla persikėlė į Kauną.<br/><br/>
 Pradžioje grupė eksperimentavo su įvairiais žanrais, tačiau pagrindinis dėmesys visada buvo skiriamas juodajam metalui. Ankstyvoji kūryba kulminavo pirmojo EP <em>„Krachas“</em> išleidimu 2019 metais. Tai buvo pirmasis žingsnis link sėkmės – grupė pradėjo aktyviai koncertuoti.<br/><br/>
 Pasikeitus bosistui, karantino metu buvo išleistas pirmasis pilno metro albumas <em>„Dezintegracija“</em>. Kadangi įrašai vyko per pandemiją, kiekvienas narys partijas įrašinėjo namuose, todėl leidybos procesas buvo sudėtingas.<br/><br/>
-Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė dabartinis narys Tauras. Su atsinaujinusia sudėtimi išleista keletas singlų bei EP „Anapilin“, o šiuo metu grupė intensyviai dirba prie naujo LP albumo.`,
+Vėliau, dėl vidinių nesutarimų, pasikeitė ir būgnininkas – jį pakeitė dabartinis narys Tauras. Su atsinaujinusia sudėtimi išleista keletas singlų bei EP „Anapilin“. 2026 m. bosine gitara groti pradėjo Gabrielius Mockus, o šiuo metu grupė intensyviai dirba prie naujo LP albumo.`,
     membersTitle: 'Nariai',
     discographyTitle: 'Diskografija',
     discography: [
@@ -166,6 +171,10 @@ const members = [
   {
     name: 'Tauras Jasionis', role: { en: 'Drums', lt: 'Būgnai' }, years: '2023', photo: tauras,
     bio: { en: 'Drumming that brings intensity and precision, driving the band’s rhythmic backbone.', lt: 'Intensyvus ir preciziškas būgnavimas, palaikantis grupės ritminį pagrindą.' },
+  },
+  {
+    name: 'Gabrielius Mockus', role: { en: 'Bass', lt: 'Bosinė gitara' }, years: '2026', photo: gabrielius, pos: '40% center',
+    bio: { en: 'The newest member, anchoring the low end with a heavy, driving bass.', lt: 'Naujausias grupės narys – sunkus, varantis bosas, laikantis žemąsias dažnes.' },
   },
 ];
 
@@ -381,12 +390,12 @@ export default function App() {
         {/* ---------------- MEMBERS ---------------- */}
         <section id="members" className="py-24 md:py-32 scroll-mt-20">
           <SectionHeading index="04">{t.membersTitle}</SectionHeading>
-          <div className="grid sm:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {members.map((m, i) => (
               <Reveal key={m.name} as="button" className="group text-left" style={{ transitionDelay: `${i * 80}ms` }}>
                 <div onClick={() => setActiveMember(i === activeMember ? -1 : i)} className="cursor-pointer">
                   <div className="relative aspect-[3/4] overflow-hidden border border-[var(--line)]">
-                    <img src={m.photo} alt={m.name} className="w-full h-full object-cover grayscale contrast-110 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />
+                    <img src={m.photo} alt={m.name} style={{ objectPosition: m.pos }} className="w-full h-full object-cover grayscale contrast-110 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />
                     <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(6,6,6,0.9) 0%, transparent 50%)' }} />
                     <div className="absolute bottom-0 left-0 right-0 p-4">
                       <h3 className="font-display uppercase text-base tracking-wide-sm leading-tight">{m.name}</h3>

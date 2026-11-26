@@ -28,6 +28,8 @@ band_info = {
     'bio': 'Anapilin is a black metal band exploring the existential, spiritual, and mystical aspects of life and death. Their music is built on atmospheric, cold soundscapes, captivating guitar riffs, and profound, poetic lyrics — inviting the listener on a journey between light and darkness, life and eternity.',
     'socials': socials,
     'performances': [
+        "Abduction – On October 22, 2026, Anapilin played with Abduction at Voodoo Club, Warsaw, Poland.",
+        "Batushka – On October 1, 2026, Anapilin opened for Batushka at Loftas, Vilnius.",
         "Velniava'2025 – Shared the stage with God Dethroned, Night Slasher, and Black Spikes at Pramogų salė Vakaris, Vilnius, on March 29, 2025.",
         "Howls of Winter XII (2025) – Underground black metal festival at Rockclub Tapper, Tallinn, Estonia, with Abduction, izrod, Lunar Mantra, and Sargeist.",
         "Zobens un Lēmes 2024 – Prestigious metal festival in Bauska, Latvia, alongside Samael, Thyrfing, and Metsatöll.",
@@ -62,6 +64,8 @@ band_info_lt = {
     'bio': '„Anapilin“ – juodojo metalo grupė, tyrinėjanti egzistencinius, dvasinius ir mistinius gyvenimo bei mirties aspektus. Kūryba remiasi atmosferišku, šaltu skambesiu, įtraukiančiais gitarų rifais ir giliais, poetiškais tekstais – kviečia klausytoją į kelionę tarp šviesos ir tamsos, gyvenimo ir amžinybės.',
     'socials': socials,
     'performances': [
+        "Abduction – 2026 m. spalio 22 d. grojome su Abduction Varšuvos „Voodoo“ klube, Lenkijoje.",
+        "Batushka – 2026 m. spalio 1 d. apšildėme Batushka koncertą Vilniaus „Lofte“.",
         "Velniava'2025 – Pasirodymas Vilniuje kartu su God Dethroned, Night Slasher ir Black Spikes, Pramogų salė „Vakaris“, 2025-03-29.",
         "Howls of Winter XII (2025) – Underground juodojo metalo festivalis Taline, Estijoje, kartu su Abduction, izrod, Lunar Mantra ir Sargeist.",
         "Zobens un Lēmes 2024 – Prestižinis metalo festivalis Bauskėje, Latvijoje, kartu su Samael, Thyrfing ir Metsatöll.",
@@ -113,6 +117,15 @@ members = [
         'bio': {
             'en': 'Drumming that brings intensity and precision, driving the band’s rhythmic backbone.',
             'lt': 'Intensyvus ir preciziškas būgnavimas, palaikantis grupės ritminį pagrindą.'
+        },
+    },
+    {
+        'name': 'Gabrielius Mockus',
+        'role': {'en': 'Bass', 'lt': 'Bosinė gitara'},
+        'years': '2026',
+        'bio': {
+            'en': 'The newest member, anchoring the low end with a heavy, driving bass.',
+            'lt': 'Naujausias grupės narys – sunkus, varantis bosas, laikantis žemąsias dažnes.'
         },
     },
 ]
